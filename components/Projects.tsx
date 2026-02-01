@@ -7,28 +7,28 @@ const Projects: React.FC = () => {
     {
       title: "Cricket Updates Website Model",
       category: "Live Sports Feed",
-      image: "/cricket.jpg",
+      image: "/Images/cricket.jpg",
       desc: "Real-time cricket updates interface that streams scores, player stats, and match insights with responsive cards and highlight reels.",
       tags: ["APIs", "Realtime UI", "Responsive Design"]
     },
     {
       title: "Fitness Centre Website Design",
       category: "UI/UX & Web",
-      image: "/fitness.jpg",
+      image: "/Images/fitness.jpg",
       desc: "An attractive Landing Page for a fitness center with modern layouts and mobile-first design approach.",
       tags: ["HTML", "CSS", "UI Design"]
     },
     {
       title: "Networking Concept Pages",
       category: "Education",
-      image: "/network.jpg",
+      image: "/Images/network.jpg",
       desc: "Detailed explanatory web pages showcasing fundamental networking concepts with visual aids.",
       tags: ["Documentation", "Web Basics"]
     },
     {
       title: "Canva Poster Collection",
       category: "Design",
-      image: "/Poster.jpg",
+      image: "/Images/Poster.jpg",
       desc: "A series of creative posters and social media graphics designed using Canva for various events.",
       tags: ["Graphic Design", "Canva"]
     }
