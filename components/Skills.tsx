@@ -82,7 +82,7 @@ const Skills: React.FC = () => {
       skills: ["Networking Basics", "DSA Fundamentals", "OS Concepts"]
     },
     {
-      title: "Current Learning",
+      title: "Currently learning",
       icon: <Cloud className="text-orange-400" />,
       skills: ["AWS", "Cybersecurity", "Fullstack Development"]
     }
