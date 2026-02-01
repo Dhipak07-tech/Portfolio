@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { ArrowRight, ChevronRight } from 'lucide-react';
+import profileImage from '../Images/Profile.png';
 
 const Hero: React.FC = () => {
   const typingText = "I’m Dhipak.S";
@@ -76,7 +77,7 @@ const Hero: React.FC = () => {
             {/* Inner Core */}
             <div className="absolute inset-12 glass rounded-full overflow-hidden border border-blue-500/40 shadow-[0_0_60px_rgba(59,130,246,0.45)]">
               <img
-                src="/Images/Profile.png"
+                src={profileImage}
                 alt="Portrait of Dhipak"
                 className="w-full h-full object-cover object-top saturate-110"
               />

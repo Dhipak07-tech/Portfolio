@@ -1,34 +1,38 @@
 
 import React from 'react';
 import { ExternalLink, Github, FolderOpen } from 'lucide-react';
+import cricketImage from '../Images/cricket.jpg';
+import fitnessImage from '../Images/fitness.jpg';
+import networkImage from '../Images/network.jpg';
+import posterImage from '../Images/Poster.jpg';
 
 const Projects: React.FC = () => {
   const projects = [
     {
       title: "Cricket Updates Website Model",
       category: "Live Sports Feed",
-      image: "/Images/cricket.jpg",
+      image: cricketImage,
       desc: "Real-time cricket updates interface that streams scores, player stats, and match insights with responsive cards and highlight reels.",
       tags: ["APIs", "Realtime UI", "Responsive Design"]
     },
     {
       title: "Fitness Centre Website Design",
       category: "UI/UX & Web",
-      image: "/Images/fitness.jpg",
+      image: fitnessImage,
       desc: "An attractive Landing Page for a fitness center with modern layouts and mobile-first design approach.",
       tags: ["HTML", "CSS", "UI Design"]
     },
     {
       title: "Networking Concept Pages",
       category: "Education",
-      image: "/Images/network.jpg",
+      image: networkImage,
       desc: "Detailed explanatory web pages showcasing fundamental networking concepts with visual aids.",
       tags: ["Documentation", "Web Basics"]
     },
     {
       title: "Canva Poster Collection",
       category: "Design",
-      image: "/Images/Poster.jpg",
+      image: posterImage,
       desc: "A series of creative posters and social media graphics designed using Canva for various events.",
       tags: ["Graphic Design", "Canva"]
     }
