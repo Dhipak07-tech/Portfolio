@@ -1,6 +1,6 @@
 
 import React, { useCallback, useEffect, useRef } from 'react';
-import { Terminal, Layout, Settings, Layers, Monitor, MessageCircle, Users, CalendarCheck, Trophy } from 'lucide-react';
+import { Terminal, Layout, Settings, Layers, Monitor, MessageCircle, Users, CalendarCheck, Trophy, Cloud } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement | null>(null);
@@ -80,6 +80,11 @@ const Skills: React.FC = () => {
       title: "Core Concepts",
       icon: <Layers className="text-pink-400" />,
       skills: ["Networking Basics", "DSA Fundamentals", "OS Concepts"]
+    },
+    {
+      title: "Current Learning",
+      icon: <Cloud className="text-orange-400" />,
+      skills: ["AWS", "Cybersecurity", "Fullstack Development"]
     }
   ];
 
